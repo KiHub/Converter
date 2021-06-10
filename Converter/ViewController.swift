@@ -19,8 +19,8 @@ class ViewController: UIViewController {
             slider.minimumValue = 0
             slider.maximumValue = 100
             slider.value = 0
-            slider.thumbTintColor = UIColor.darkGray
-            slider.minimumTrackTintColor = UIColor.purple            //slider.maximumTrackTintColor = UIColor.orange
+            slider.thumbTintColor = #colorLiteral(red: 0.6235294118, green: 0.3725490196, blue: 0.5019607843, alpha: 1)
+            slider.minimumTrackTintColor = #colorLiteral(red: 1, green: 0.5176470588, blue: 0.4549019608, alpha: 1)
             
         }
     }
